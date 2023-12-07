@@ -12,7 +12,7 @@ on:
 
 # These variables can be reused in the build steps
 env:
-  DOCKER_REPOSITORY: apprenticeship
+  DOCKER_REPOSITORY: sofiedelaet/apprenticeship
   DOCKER_IMAGE: aelm-workshop-23
   GOLANG_VERSION: 1.21.x
 
