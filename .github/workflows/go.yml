@@ -23,8 +23,8 @@ jobs:
 
     - name: Build
       run: 
-        go build -o main ./aelm-workshop-23-forked/workshop-service/main.go
-        go build -o workshop ./aelm-workshop-23-forked/workshop-service/workshop.go
+        go build -o aelmWorkshop23 .
+        working-directory: workshop-service
 
     - name: Test
       run: go test -v ./...
