@@ -24,7 +24,7 @@ jobs:
     - name: Build
       run: 
         go build .
-        working-directory: workshop-service
+      working-directory: workshop-service
 
     - name: Test
       run: go test -v ./...
