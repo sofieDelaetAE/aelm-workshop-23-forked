@@ -22,7 +22,9 @@ jobs:
         go-version: '1.20'
 
     - name: Build
-      run: go build -v ./...
+      run: 
+        go build -o main ./aelm-workshop-23-forked/workshop-service/main.go
+        go build -o workshop ./aelm-workshop-23-forked/workshop-service/workshop.go
 
     - name: Test
       run: go test -v ./...
